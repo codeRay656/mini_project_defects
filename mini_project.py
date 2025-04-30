@@ -168,8 +168,6 @@ def preprocess_input(severity, inspection_method, defect_location, repair_cost):
 
 # Streamlit app
 def main():
-    st.set_page_config(page_title="Defect Type Predictor", page_icon="🔧", layout="centered")
-
     st.title("🔧 Defect Type Prediction")
     st.write("Predict the type of defect based on inspection data using a Deep Learning model.")
 
